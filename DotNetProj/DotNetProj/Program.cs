@@ -1,9 +1,19 @@
-using System;
+using DotNetProj;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+List<string> errors = new List<string>();
+
 app.MapGet("/", () => "Hello World!");
+
+
+/* simplest API */
+
+List <Analyzer> analyzerList = new List<Analyzer>();
+
+analyzerList.Add(new Analyzer(Guid.NewGuid().ToString(), "Alinity i", "172.18.0.1", 8001)); 
+
 
 /* ѕолучаем адрес, по которому обращаетс€ клиент
 app.Run(async (context) => await context.Response.WriteAsync($"Path: {context.Request.Path}"));
