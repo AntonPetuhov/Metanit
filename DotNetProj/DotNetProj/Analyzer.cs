@@ -18,5 +18,6 @@
             this.analyzer_ip = analyzer_ip; 
             this.analyzer_port = analyzer_port;
         }
+
     }
 }
