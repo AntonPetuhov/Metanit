@@ -24,6 +24,9 @@ app.Run(async (context) =>
     {
 
     }
+
+    if (path == "/api/") { }
+
 });
 
 app.MapGet("/", () => "Hello World!");
