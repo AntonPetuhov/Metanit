@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\anton.petuhov\\source\\repos\\Metanit\\DotNetProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|c:\\users\\anton.petuhov\\source\\repos\\metanit\\dotnetproj\\dotnetproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|solutionrelative:dotnetproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|c:\\users\\anton.petuhov\\source\\repos\\metanit\\dotnetproj\\dotnetproj\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|solutionrelative:dotnetproj\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|c:\\users\\anton.petuhov\\source\\repos\\metanit\\dotnetproj\\dotnetproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1C7C96-A4F8-4EB6-9F21-EDC940816D38}|DotNetProj\\DotNetProj.csproj|solutionrelative:dotnetproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Analyzer.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\Metanit\\DotNetProj\\DotNetProj\\Analyzer.cs",
               "RelativeDocumentMoniker": "DotNetProj\\Analyzer.cs",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\Metanit\\DotNetProj\\DotNetProj\\Program.cs",
               "RelativeDocumentMoniker": "DotNetProj\\Program.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\Metanit\\DotNetProj\\DotNetProj\\Program.cs",
               "RelativeToolTip": "DotNetProj\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADkAAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T07:32:39.967Z",
               "EditorCaption": ""
