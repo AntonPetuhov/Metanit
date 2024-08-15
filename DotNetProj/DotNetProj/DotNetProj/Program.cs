@@ -1,4 +1,6 @@
 using DotNetProj;
+using Database;
+using System.Net.Http.Headers;
 
 /* Simple API */
 // начальные данные
@@ -11,8 +13,13 @@ List<Analyzer> analyzerList = new List<Analyzer>()
 
 analyzerList.Add(new Analyzer(Guid.NewGuid().ToString(), "Alinity i", "172.18.0.4", 8004));
 
+//var analyzerdb = new AnalyzerDB();
+AnalyzerDB? analyzerdb = new AnalyzerDB();
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
+
 
 app.Run(async (context) =>
 {
@@ -20,12 +27,19 @@ app.Run(async (context) =>
     var request = context.Request;
     var path = context.Request.Path;
 
+    List<Analyzer> analyzerList = analyzerdb.GetAllAnalyzers();
+
+
+
     if (path == "/api/analyzers/" && request.Method == "GET")
     {
-
+        await response.WriteAsJsonAsync(analyzerList);
     }
 
-    if (path == "/api/") { }
+    if (path == "/api/") 
+    {
+        await response.WriteAsync("Analyzers API");
+    }
 
 });
 
@@ -57,9 +71,3 @@ app.Run(async (context) =>
 //app.UseWelcomePage();
 
 app.Run();
-
-// получение всех анализаторов
-async Task GetAllAnalyzers()
-{
-
-}
