@@ -1,5 +1,6 @@
 ﻿namespace DotNetProj
 {
+     //
     public interface IAnalyzer
     {
 
