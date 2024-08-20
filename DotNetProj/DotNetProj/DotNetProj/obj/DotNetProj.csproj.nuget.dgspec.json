@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Metanit\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj.csproj": {}
+    "C:\\Development\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj\\DotNetProj.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Metanit\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj.csproj": {
+    "C:\\Development\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj\\DotNetProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Metanit\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj.csproj",
+        "projectUniqueName": "C:\\Development\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj\\DotNetProj.csproj",
         "projectName": "DotNetProj",
-        "projectPath": "C:\\Development\\Metanit\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj.csproj",
+        "projectPath": "C:\\Development\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj\\DotNetProj.csproj",
         "packagesPath": "C:\\Users\\petuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Metanit\\Metanit\\DotNetProj\\DotNetProj\\obj\\",
+        "outputPath": "C:\\Development\\Metanit\\DotNetProj\\DotNetProj\\DotNetProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
